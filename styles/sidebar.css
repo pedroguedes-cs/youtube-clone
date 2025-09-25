@@ -1,9 +1,35 @@
 .sidebar
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    bottom: 0px;
+    width: 120px;
+    z-index: 101;
+
+    background-color: white;
+    padding: 20px 0px;
 }
 
-.sidebar img
+.sidebar-item
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.sidebar-item img
+{
+    width: 20px;
+}
+
+.sidebar-item-name
+{
+    color: black;
 }
