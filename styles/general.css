@@ -10,3 +10,8 @@ body
     padding-top: 130px;
     padding-left: 160px;
 }
+
+p
+{
+    margin: 0px;
+}
