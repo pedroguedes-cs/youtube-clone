@@ -9,7 +9,6 @@
     top: 90px;
     left: 0px;
     bottom: 0px;
-    width: 120px;
     z-index: 101;
 
     background-color: white;
@@ -22,6 +21,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 110px;
+    padding: 20px 8px;
+}
+
+.sidebar-item:hover
+{
+    background-color: rgb(240, 240, 240);
 }
 
 .sidebar-item img

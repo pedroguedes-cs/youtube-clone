@@ -1,6 +1,7 @@
 .video-container
 {
     padding-bottom: 40px;
+    width: 320px;
 }
 
 
@@ -25,6 +26,7 @@
 /* INFO AREA */
 .video-info
 {
+    padding-right: 8px;
     margin-top: 12px;
 
     display: flex;
@@ -65,14 +67,15 @@
 
 .video-title
 {
+    flex: 1;
     color: black;
     font-size: 16px;
     font-weight: 500;
-
-    width: 230px;
+    line-height: 22px;
 }
 
 .channel-name, .video-stats
 {
+    flex: 1;
     margin-top: 5px;
 }
