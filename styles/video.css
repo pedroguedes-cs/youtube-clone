@@ -1,6 +1,10 @@
 .video-container
 {
-    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+
     width: 320px;
 }
 
@@ -9,8 +13,12 @@
 /* THUMBNAIL AREA */
 .video-thumbnail
 {
+    flex: 1;
     position: relative;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .thumbnail
@@ -19,6 +27,7 @@
     width: 320px;
     object-fit: cover;
 
+    display: inline-block;
     border-radius: 12px;
 }
 
@@ -43,8 +52,9 @@
 /* INFO AREA */
 .video-info
 {
-    padding-right: 8px;
+    flex: 1;
     margin-top: 12px;
+    padding-bottom: 8px;
 
     display: flex;
     flex-direction: row;
@@ -81,7 +91,7 @@
     justify-content: space-between;
     align-items: start;
 
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .video-title
