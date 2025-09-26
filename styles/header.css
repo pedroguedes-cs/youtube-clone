@@ -34,12 +34,14 @@ header
 .menu-icon
 {
     width: 20px;
+    cursor: pointer;
 }
 
 .youtube-logo
 {
     width: 70px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 
@@ -62,17 +64,26 @@ header
     padding: 12px 12px;
     border: solid 1px lightgray;
     border-radius: 30px 0px 0px 30px;
+    z-index: 1;
 
     flex-shrink: 1;
 }
 
+.search-bar:focus
+{
+    outline: none;
+    border-color: blue;
+}
+
 .search-button
 {
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, 0.05);
     padding: 3px 18px 3px 15px;
     margin-left: -3px;
     border: solid 1px lightgray;
     border-radius: 0px 30px 30px 0px;
+
+    cursor: pointer;
 }
 
 .search-icon
@@ -85,9 +96,11 @@ header
     width: 20px;
     margin-left: 20px;
 
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, 0.05);
     padding: 10px 10px;
     border-radius: 30px;
+
+    cursor: pointer;
 }
 
 
@@ -107,6 +120,7 @@ header
 .notifications-icon
 {
     width: 20px;
+    cursor: pointer;
 }
 
 .my-channel-picture
@@ -116,5 +130,7 @@ header
     object-fit: cover;
 
     border-radius: 20px;
+
+    cursor: pointer;
 }
 

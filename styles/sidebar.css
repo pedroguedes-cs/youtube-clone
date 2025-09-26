@@ -23,11 +23,15 @@
     align-items: center;
     width: 110px;
     padding: 20px 8px;
+
+    cursor: pointer;
+
+    transition: background-color 0.15s;
 }
 
 .sidebar-item:hover
 {
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .sidebar-item img

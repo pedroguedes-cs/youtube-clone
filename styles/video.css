@@ -9,7 +9,8 @@
 /* THUMBNAIL AREA */
 .video-thumbnail
 {
-
+    position: relative;
+    cursor: pointer;
 }
 
 .thumbnail
@@ -19,6 +20,22 @@
     object-fit: cover;
 
     border-radius: 12px;
+}
+
+.video-time
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+    padding: 1px 4px;
+    border: none;
+    border-radius: 4px;
+
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
 }
 
 
@@ -51,6 +68,8 @@
     height: 36px;
     object-fit: cover;
     border-radius: 20px;
+
+    cursor: pointer;
 }
 
 .video-text
@@ -72,6 +91,8 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
+
+    cursor: pointer;
 }
 
 .channel-name, .video-stats
